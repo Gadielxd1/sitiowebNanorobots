@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanotecnología y Diabetes Tipo 1</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        /* Estilo para el gran título */
+        .big-title {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin: 30px 20px 10px 20px;
+            color: #004d99;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        nav {
+            background-color: #0066cc;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #004d99;
+        }
+        footer {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
+        /* Estilos para las imágenes */
+        .imagen {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        /* Estilos para el video */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+            .big-title {
+                font-size: 36px;
+                margin: 20px 10px 10px 10px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1 class="big-title">La Nanotecnología</h1>
+
+    <header>
+        <h2>Nanotecnología en el Tratamiento de la Diabetes Tipo 1</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#tecnologia">Tecnología</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>¿Qué es la Nanotecnología?</h2>
+            <p>La nanotecnología se refiere a la manipulación de la materia a escala nanométrica (1-100 nanómetros). En el campo de la medicina, permite el desarrollo de tratamientos más precisos y eficientes.</p>
+            
+            <img src="img/Nano 1.jpg" alt="Nanotecnología en acción" class="imagen">
+        </section>
+        <section id="tecnologia">
+            <h2>Nanotecnología y Diabetes Tipo 1</h2>
+            <p>Actualmente, la nanotecnología ha avanzado al punto de poder integrarse dentro del cuerpo humano para tratar la diabetes tipo 1 de manera más efectiva. Estas nanomáquinas pueden monitorear los niveles de glucosa en tiempo real y administrar insulina de forma automática, mejorando la calidad de vida de los pacientes.</p>
+        
+            <img src="img/nano 2.jpg" alt="Nanotecnología en el tratamiento de diabetes" class="imagen2">
+            <p>Además, la nanotecnología ofrece potencial para regenerar células beta pancreáticas, proporcionando una cura a largo plazo para esta enfermedad.</p>
+        </section>
+        <section id="video">
+            <h2>Video Informativo</h2>
+            <div class="video-container">
+                
+                <iframe src="https://www.youtube.com/embed/v73VkunNMuQ?si=AL75d4fD6vSgZ9TZ" title="Video sobre Nanotecnología y Diabetes Tipo 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <p><strong>Teléfono:</strong> +34 600 123 456</p>
+                <p><strong>Correo Electrónico:</strong> <a href="mailto:info@nanotecnologia.com">info@nanotecnologia.com</a></p>
+                <p><strong>Dirección:</strong> Edificio Nanotech, Calle Innovación 123, 28000 Madrid, España</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Nanotecnología para la Salud. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
